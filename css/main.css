@@ -86,21 +86,13 @@ body {
   text-transform: uppercase;
 }
 
-.overlay {
-  display: block;
-  position: relative;
+.images {
+  background-color: hsl(277, 64%, 61%);
 }
 
-.overlay::before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgb(170, 92, 219, 0.5);
+.images img {
+  mix-blend-mode: multiply;
   opacity: 0.8;
-  left: 0;
-  top: 0;
-  z-index: 1;
 }
 
 .mobile-image {
